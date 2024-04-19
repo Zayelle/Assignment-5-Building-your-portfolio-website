@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1> Cici Mikal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about"></a></li>
+                    <li><a href="portfolio"></a></li>
+                    <li><a href="contact"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<main>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer with a focus on creating beautiful and user-friendly websites.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+
+            <ol>
+            <div class="portfolio-item">
+                  <li> <h3>Introduction to HTML</h3></li>
+                <p>An introduction to HTML typically provides a foundation for further learning about web development and design,<br> serving as the building block for creating interactive and visually appealing websites.</p>
+                <img src="Introduction to HTML.png" alt="Introduction to HTML">
+            </div>
+
+            <div class="portfolio-item">
+                <li><h3>HTML Links and Images</h3></li>
+                <p>Links:
+                    HTML links, also known as hyperlinks, allow you to navigate between web pages. <br> They are defined using the"<a>" element, which stands for "anchor."
+                <br>Images:
+                    Images can be included in HTML documents using the <img> element. </p>
+                <p>Within HTML, you can include links and images to enhance the content and functionality of your web page. <br>
+                    Both links and images are fundamental elements for building interactive and visually appealing web pages.</p>
+                <img src="HTML Links and Images.jpeg" alt="HTML Links and Images">
+            </div>
+
+            <div class="portfolio-item">
+                <li><h3>HTML Forms</h3></li>
+                <p>HTML forms are essential elements used to collect input from users on web pages. They enable users to submit data to a server for processing. Forms consist of various input fields like text fields, checkboxes, radio buttons, and buttons for interaction.
+                Here's an overview of how HTML forms are structured: <br></p>
+                <p>Form Element:
+                    The element is used to create a container for form inputs. It has attributes that specify how the form data should be submitted and where it should be sent.</p>
+                <p>Input Fields:
+                    Input fields are used to collect different types of data from users. Common input types include text fields, checkboxes, radio buttons, dropdown menus, and buttons.</p>
+                    Buttons:
+                    Buttons within forms can trigger different actions such as form submission, resetting the form, or triggering custom JavaScript functions.
+                <p> Labels:
+                    Labels provide a descriptive name for an input field. They improve accessibility by associating the label text with the corresponding input field.
+                <p>HTML forms are versatile tools for collecting user input, processing data, and creating interactive web experiences.</p>
+                <img src="HTML Forms.jpeg" alt="HTML Forms">
+            </div>
+
+            <div class="portfolio-item">
+               <li><h3>Intro to CSS</h3></li>
+                <p>CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in HTML or XML. It controls the layout, formatting, colors, fonts, and other visual aspects of web pages.
+                <br>CSS is a powerful tool for web developers to control the visual appearance and layout of web pages, enhancing the user experience and creating aesthetically pleasing designs.
+                </p>
+                <img src="Intro to CSS.jpeg" alt="Intro to CSS">
+            </div>
+
+            </ol>   
+        </div>
+    </section>
+
+    <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="10" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+    </section>
+</main>
+
+    <footer>
+        <div class="container">
+            <p>&copy;2024 Cici Mikal</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
